@@ -25,10 +25,12 @@ const Benefits = () => {
 
             {/* 1 */}
             <div className="pt-8">
+              <section className='flex flex-row lg:flex-none '>
               <img src={num1} alt="icon1" />
               <h2 className="font-extrabold text-[1.3rem] pt-6">
                 برگزاری و اجرای مسابقات بزرگ
               </h2>
+              </section>
               <p className="pt-2 text-[0.90rem] text-gray-500">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، 
                 و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه 
@@ -38,10 +40,12 @@ const Benefits = () => {
 
             {/* 2 */}
             <div className="pt-8">
-              <img src={num2} alt="icon2" />
-              <h2 className="font-extrabold text-[1.3rem] pt-6">
+              <section className='flex flex-row justify-between sm:flex-none sm:justify-normal  '>
+              <img src={num2} alt="icon2" className='order-2 sm:order-1' />
+              <h2 className="font-extrabold text-[1.3rem] pt-6 order-1 sm:order-2">
                 ارتباط با جامعه ایی بزرگ
               </h2>
+              </section>
               <p className="pt-2 text-[0.90rem] text-gray-500">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، 
                 و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه 
@@ -51,10 +55,12 @@ const Benefits = () => {
 
             {/* 3 */}
             <div className="pt-8">
+              <section className='flex flex-row lg:flex-none lg:mt-12 '>
               <img src={num3} alt="icon3" />
               <h2 className="font-extrabold text-[1.3rem] pt-6">
                 یافتن بهترین راه حل ها
               </h2>
+              </section>
               <p className="pt-2 text-[0.90rem] text-gray-500">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، 
                 و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه 
@@ -64,10 +70,12 @@ const Benefits = () => {
 
             {/* 4 */}
             <div className="pt-8">
-              <img src={num4} alt="icon4" />
-              <h2 className="font-extrabold text-[1.3rem] pt-6">
+              <section className='flex flex-row justify-between  sm:flex-none sm:justify-normal lg:mt-9  '>
+              <img src={num4} alt="icon4"  className='order-2 sm:order-1'/>
+              <h2 className="font-extrabold text-[1.3rem] pt-6 order-1 sm:order-2">
                 کشف افراد توانمند و ارتباط با آنها
               </h2>
+              </section>
               <p className="pt-2 text-[0.90rem] text-gray-500">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ,
                 و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه 
