@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'peyda';
+}
+
+@font-face {
+  font-family: 'peyda';
+  src: url('/src/assets/font/Dirooz.woff');
+}
+
+@font-face {
+  font-family: 'dana';
+  src: url('/src/assets/font/Yekan.ttf');
+}
+
+@layer utilities {
+  .font-peyda {
+    font-family: 'peyda';
+  }
+  .font-dana {
+    font-family: 'dana';
+  }
+
+  .font-peyda14 {
+    font-family: 'peyda';
+    font-size: 14px;
+  }
+
+  .font-peyda16 {
+    font-family: 'peyda';
+    font-size: 1rem;
+  }
+  .border-mycolor {
+    border-top-width: 2px; 
+    border-color: linear-gradient(90deg, #49B3F3, #1004A4, #C72D58);
+    border-top: #0F048D 2px
+  }
+    .border-mycolor {
+    position: relative;
+  }
+  .border-mycolor::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px; 
+    background: linear-gradient(90deg, #49B3F3, #1004A4, #C72D58);
+  }
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;  
+}
+
+
+@layer components {
+  .menu-item {
+    @apply relative inline-block text-black transition-colors duration-200 cursor-pointer;
+  }
+
+  .menu-item:hover {
+    color: #0F048D;
+  }
+
+  .menu-item::after {
+    content: "";
+    @apply absolute left-0 bottom-[-15px] h-[3px] rounded-xl w-full scale-x-0 origin-left transition-transform duration-300;
+    background: linear-gradient(90deg, #49B3F3, #1004A4, #C72D58);
+  }
+
+  .menu-item:hover::after {
+    @apply scale-x-100 opacity-100;
+  }
+}

@@ -1,0 +1,27 @@
+<svg width="768" height="720" viewBox="0 0 768 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_4495)">
+<mask id="mask0_1_4495" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-48" width="768" height="768">
+<rect width="768" height="768" transform="translate(0 -48)" fill="url(#paint0_radial_1_4495)"/>
+</mask>
+<g mask="url(#mask0_1_4495)">
+<circle cx="384" cy="336" r="8" fill="#47CD89"/>
+<circle cx="384" cy="336" r="47.5" stroke="#A9EFC5"/>
+<circle cx="384" cy="336" r="95.5" stroke="#A9EFC5"/>
+<circle cx="384" cy="336" r="143.5" stroke="#A9EFC5"/>
+<circle cx="384" cy="336" r="191.5" stroke="#A9EFC5"/>
+<circle cx="384" cy="336" r="239.5" stroke="#A9EFC5"/>
+<circle cx="384" cy="336" r="287.5" stroke="#A9EFC5"/>
+<circle cx="384" cy="336" r="335.5" stroke="#A9EFC5"/>
+<circle cx="384" cy="336" r="383.5" stroke="#A9EFC5"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_1_4495" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(384 384) rotate(90) scale(384 384)">
+<stop/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_1_4495">
+<rect width="768" height="720" fill="white"/>
+</clipPath>
+</defs>
+</svg>
