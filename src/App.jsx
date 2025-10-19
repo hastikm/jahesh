@@ -12,18 +12,16 @@ function App() {
 
   return (
     <>
-
+  <div className='overflow-x-hidden'>
     <Navbar />
     <UnderNav />
-    <div className='container mx-auto'>
-  
     <Hero />
     <Competitions />
     <EventSteps />
     <Benefits />
     <Brands />
-   </div>
    <Footer />
+   </div>
     </>
   )
 }
