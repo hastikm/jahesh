@@ -22,7 +22,7 @@ const Footer = () => {
        <div>
          <div className='flex flex-col lg:flex-row gap-4'>
           <img src={arrowLogo} className='hidden lg:block' />
-         <h1 className=' mt-2 font-extrabold'>خبرنامه جهش</h1>
+         <h1 className=' mt-2 font-extrabold '>خبرنامه جهش</h1>
          </div>
 
         <p className='text-gray-400 text-[15px]'>با عضویت در خبرنامه جهش از جدید‌ترین مطالب ‌دنیای کسب‌و‌کار، استارت‌آپ و سرمایه‌گذاری را دریافت کنید.</p>
@@ -141,10 +141,11 @@ const Footer = () => {
 
 </footer>
 
-   <button className="rounded-lg mx-auto py-3 mt-10 mb-3 bottom-5 right-5 flex items-center justify-center gap-2 bg-black text-white px-40 unded-lg text-sm font-bold shadow-md hover:bg-gray-800 transition md:hidden z-50">
+<button className="rounded-lg mx-auto py-3 mt-10 mb-3 flex items-center justify-center gap-2 bg-black text-white px-6 text-sm font-bold shadow-md hover:bg-gray-800 transition md:hidden z-50">
   ایجاد مسابقه
-  <FaArrowLeft  className="text-white text-lg" />
+  <FaArrowLeft className="text-white text-lg" />
 </button>
+
 
 
     </>
