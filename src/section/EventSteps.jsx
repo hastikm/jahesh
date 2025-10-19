@@ -8,7 +8,7 @@ import rec from '../assets/icon/rec.svg'
 const EventSteps = () => {
   return (
     <>
-      <div className="max-w-[1600px] flex flex-col lg:flex-row justify-between pt-36 border-b-2 pb-32">
+      <div className="max-w-[1600px] flex flex-col lg:flex-row justify-between pt-36 border-b-2 pb-32 mx-auto">
 
         {/* بخش راست */}
         <section className="flex flex-col lg:flex-row items-center lg:items-start px-6 lg:pr-44">
@@ -21,7 +21,7 @@ const EventSteps = () => {
         </section>
 
         {/* بخش چپ */}
-        <section className="pt-14 lg:pr-32 flex flex-col gap-10 px-6">
+        <section className="pt-14 lg:pr-32 flex flex-col gap-10 px-6 ">
           {[
             { img: earth, title: 'انتشار عمومی مسابقه' },
             { img: sug, title: 'ارسال پروژه‌ها' },
